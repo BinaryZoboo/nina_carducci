@@ -22,6 +22,10 @@ body {
   font-size: 26px;
 }
 
+.top-header .name:hover {
+  cursor: pointer;
+}
+
 .nav ul {
   display: flex;
   list-style-type: none;
@@ -36,6 +40,10 @@ body {
 .nav a {
   text-decoration: none;
   color: #000;
+}
+
+nav a:hover {
+  color: #beb45a;
 }
 
 .social-link img {
@@ -99,13 +107,14 @@ body {
 .gallery .nav {
   justify-content: center;
 }
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+
+.nav-link.active-tag {
   color: #fff;
   background-color: #beb45a;
   border-radius: 0;
 }
-.nav-pills .nav-link {
+
+.nav-link {
   color: #000;
 }
 .item-column {
