@@ -2,6 +2,11 @@ body {
   max-width: 1920px;
   margin: auto;
 }
+
+h1 {
+  font-size: 18px;
+}
+
 * {
   font-family: "Inter";
   font-style: normal;
@@ -92,9 +97,10 @@ nav a:hover {
   font-style: italic;
   width: 60%;
 }
+
 #about-me p {
   width: 80%;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #gallery {
