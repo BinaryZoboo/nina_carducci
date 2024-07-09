@@ -81,8 +81,8 @@ nav a:hover {
 }
 
 .picture img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 #about-me {
   flex: 2;
